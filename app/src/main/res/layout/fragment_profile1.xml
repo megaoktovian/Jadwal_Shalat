@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#D8D0B7"
+    android:padding="16dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+    android:id="@+id/yogya"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Yogyakarta,"
+    android:textStyle="bold"
+    android:fontFamily="times"
+    android:textSize="30dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv1"
+        android:id="@+id/welkam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo, Assalamualaikum! Sudahkah anda solat hari ini?"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/welkam"
+        android:id="@+id/namaakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/namaakun"
+        android:layout_below="@id/welkam"
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_below="@+id/namaakun"
+        android:id="@+id/emailakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "/>
+    <TextView
+        android:layout_toRightOf="@id/emailakun"
+        android:layout_below="@+id/namaakun"
+        android:id="@+id/emaill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email "
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Update Profile"
+        android:layout_below="@id/emailakun"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#C1A12E"
+
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berikut ini dalil yang menunjukkan wajibnya menunaikan sholat lima waktu tepat pada waktunya"
+        android:layout_below="@id/yogya"
+        android:textSize="17dp"/>
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:id="@+id/dalil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil1"
+        android:layout_below="@id/emailakun"/>
+    <ImageView
+        android:id="@+id/dalil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil2"
+        android:layout_below="@id/dalil1"/>
+    <ImageView
+        android:id="@+id/dalil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil3"
+        android:layout_below="@id/dalil2"/>
+    <ImageView
+        android:id="@+id/dalil4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil4"
+        android:layout_below="@id/dalil3"/>
+</RelativeLayout>
+
+</ScrollView>

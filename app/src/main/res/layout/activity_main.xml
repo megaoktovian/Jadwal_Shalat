@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="#D8D0B7">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoo"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in with your account"
+        android:textColor="@android:color/white"
+        android:fontFamily="times"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_1"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="395dp"
+        android:layout_height="45dp"
+        android:background="@drawable/mybutton"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:hint="  Email"
+        android:textSize="15dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:background="@drawable/mybutton"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:inputType="textPassword"
+        android:hint=" Password"
+        android:layout_below="@id/et_email"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="Log In"
+        android:textSize="17dp"
+        android:layout_below="@id/password"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#C1A12E"
+        />
+
+    <TextView
+        android:id="@+id/tv_forgotps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="Sign Up"
+        android:textSize="17dp"
+        android:layout_below="@id/btn_login"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C1A12E"
+        />
+</RelativeLayout>

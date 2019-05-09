@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".DetailSholat"
+    android:background="#D8D0B7">
+    <TextView
+        android:id="@+id/yogya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yogyakarta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:fontFamily="times"
+        android:textSize="30dp"/>
+    <TextView
+
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:layout_marginTop="35dp"
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvshubuh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:fontFamily="times"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/tvdhuhur"
+        android:fontFamily="times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:fontFamily="times"
+        android:id="@+id/tvashar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:fontFamily="times"
+        android:id="@+id/tvmaghrib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:fontFamily="times"
+        android:id="@+id/tvisya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:textAlignment="center"
+        android:textColor="#483c32"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>
